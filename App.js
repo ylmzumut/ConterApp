@@ -33,9 +33,9 @@ function App() {
     <SafeAreaView>
       <View style={styles.container}>
       <Text style={styles.texttitle1}>Umut Yılmaz</Text>
-      <Text style={styles.texttitle2}>ConterApp</Text>
+      <Text style={styles.texttitle2}>CounterApp</Text>
         <Image source={{ uri: "https://wallpapercave.com/wp/wp6953020.jpg" }} style={styles.image} />
-        <Text style={styles.text}>Conter: {count}</Text>
+        <Text style={styles.text}>Counter: {count}</Text>
         <Text style={styles.subtitle}>Click buttons to change the counter.</Text>
       </View>
       {/*<View style={styles.buttonContainer}>
