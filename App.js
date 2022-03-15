@@ -32,7 +32,9 @@ function App() {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <Image source={{ uri: "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687419/retina_1708x683_REDESIGN-ReactNativePerformance-Luke_Newsletter-b188785eb990868e1e672230e8bbe740.png" }} style={styles.image} />
+      <Text style={styles.texttitle1}>Umut Yılmaz</Text>
+      <Text style={styles.texttitle2}>ConterApp</Text>
+        <Image source={{ uri: "https://wallpapercave.com/wp/wp6953020.jpg" }} style={styles.image} />
         <Text style={styles.text}>Conter: {count}</Text>
         <Text style={styles.subtitle}>Click buttons to change the counter.</Text>
       </View>
@@ -64,6 +66,18 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 30,
     marginTop: 16,
+  },
+  texttitle1: {
+    fontSize: 35,
+    marginTop: 16,
+    textAlign:'center',
+    color:'#06024f'
+  },
+  texttitle2: {
+    fontSize: 30,
+    marginBottom: 16,
+    textAlign:'center',
+    color:'#ba39c4',
   },
   subtitle: {
     fontSize: 20,
