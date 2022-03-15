@@ -1,6 +1,6 @@
 # CounterApp
-React Native CounterApp / Sayaç Uygulaması
+React Native Expo CounterApp / Sayaç Uygulaması
 
 Artırılıp azaltılabilen sayaç uygulaması
 
-<img src="https://github.com/ylmzumut/CounterApp/blob/master/CounterApp.png"  height="600"/>
+<img src="https://github.com/ylmzumut/CounterApp/blob/master/CounterApp.png"  height="750"/>
